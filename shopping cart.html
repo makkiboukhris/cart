@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/stylecart.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+    <section>
+    <div class="top">
+        <img src="./res/590509.svg" alt="">
+        <h1>Ajouté Au Panier</h1>
+    </div>
+
+
+ 
+     <div class="product" id="pro1">
+        <div class="buttons" > 
+            <button onclick="remove('pro1','tot','div1')"><i id="pro1" class="fas fa-times"></i></button>
+            <button  onclick="like('heart1')" ><i class="fas fa-heart" id="heart1" ></i></button> 
+            </div>  
+        <img id="a" src="./res/polo-exchange-px0126-08-erkek-kol-saati-1.jpg" alt="mongela">
+        <h3 id="b">Montre pour homme polo-exchange</h3>
+        <div>
+        <button class="button" onclick="Increment('inp1',200,'div1');total('div1','div2','div3','div4','tot')" >+</button>
+        <input class="button" type="text"  placeholder="1" id="inp1" value="1">
+        <button class="button" onclick="decrement('inp1',200,'div1');total('div1','div2','div3','div4','tot')" >-</button>
+    </div>
+        <div class="prix" id="div1">
+            200
+            </div>
+    </div>
+
+    <div class="product" id="pro2">
+        <div class="buttons">
+           <button onclick="remove('pro2','tot','div2')"><i id="pro2" class="fas fa-times"></i></button> 
+           <button  onclick="like('heart2')" ><i class="fas fa-heart" id="heart2"></i></button> 
+            </div>
+        <img id="c" src="./res/pure-xs.jpg" alt="parfum">
+        <h3 id="d">Parefum pour homme pure-xs</h3>
+        <div>
+            <button class="button" onclick="Increment('inp2',200,'div2');total('div1','div2','div3','div4','tot')" >+</button>
+            <input class="button" type="text"  placeholder="1" id="inp2" value="1">
+            <button class="button" onclick="decrement('inp2',200,'div2');total('div1','div2','div3','div4','tot')" >-</button>
+        </div>
+            <div class="prix" id="div2">
+                200
+                </div>
+        
+        
+    </div>
+
+    <div class="product" id="pro3">
+        <div class="buttons">
+           <button onclick="remove('pro3','tot','div3')"><i id="pro3" class="fas fa-times"></i></button> 
+           <button  onclick="like('heart3')" ><i class="fas fa-heart" id="heart3"></i></button> 
+            </div>
+        <img id="e" src="./res/EK000620_C48_1.jpg" alt="kartabla">
+        <h3 id="f">Sac à dos Eastpak</h3>
+        <div>
+            <button class="button" onclick="Increment('inp3',200,'div3');total('div1','div2','div3','div4','tot')" >+</button>
+            <input class="button" type="text"  placeholder="1" id="inp3" value="1">
+            <button class="button" onclick="decrement('inp3',200,'div3');total('div1','div2','div3','div4','tot')" >-</button>
+        </div>
+            <div class="prix" id="div3">
+                200
+                </div>
+        
+    </div>
+
+    <div class="product" id="pro4">
+        <div class="buttons">
+           <button onclick="remove('pro4','tot','div4')"><i id="pro4" class="fas fa-times"></i></button> 
+           <button  onclick="like('heart4')" ><i class="fas fa-heart" id="heart4"></i></button> 
+            </div>
+        <img id="g" src="./res/accessoires-homme-ceintures-calvin-klein-k50k50430.jpg" alt="sabta">
+        <h3 id="h">Ceinture Calvin Klein</h3>
+        <div>
+            <button class="button" onclick="Increment('inp4',200,'div4');total('div1','div2','div3','div4','tot')" >+</button>
+            <input class="button" type="text"  placeholder="1" id="inp4" value="1">
+            <button class="button" onclick="decrement('inp4',200,'div4');total('div1','div2','div3','div4','tot')" >-</button>
+        </div>
+            <div class="prix" id="div4">
+                200
+            </div>
+    </div>
+    <div class="total">
+     <div >
+        <h4>Total:</h4>
+     </div>
+    <div  id="tot">
+        800
+    </div>
+   </div>
+    </section>
+    </main>
+
+
+    <script src="js/cart.js" rel='javascript'></script>
+    <script src="https://kit.fontawesome.com/4fbddea7a7.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>

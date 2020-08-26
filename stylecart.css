@@ -1,0 +1,76 @@
+
+.top img{
+max-width: 65px;
+max-height: 65px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+}
+.top h1{
+text-align: center;
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+font-size: 55px;
+font-weight: 300;
+margin-bottom:100px ;
+}
+.product img{
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+.product{
+    max-width: 1300px;
+    border-top: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+.product h3{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    padding-top: 85px;
+}
+.buttons  {
+    display: flex;
+    padding-top: 10px;    
+}
+.fas{
+    font-size: 24px;
+   }
+.buttons i {
+padding: 25px;
+
+}
+.buttons button{
+    border:  1px white;
+    background-color: white;
+    max-height: 100px;
+    margin: auto;
+    
+}
+.button{
+    margin-top: 90px;
+    max-height: 50px;
+    max-width: 40px;
+    border: solid 1px black;
+    background-color: white;
+    border-radius: 2px;
+    text-align: center;
+}
+.prix{
+    padding-top: 90px;
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 300px;
+    margin-left: 1100px;
+}
